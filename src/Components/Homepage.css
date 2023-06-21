@@ -1,0 +1,51 @@
+.center-text {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-text {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(219, 124, 124);
+}
+
+.outline {
+   
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    color: azure;
+}
+
+.bottom {
+    padding-top: 90px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .name-text{
+        font-size: 10px;
+    }
+
+    .icon{
+        height: 25px;
+        width: 25px;
+    }
+
+}

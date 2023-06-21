@@ -1,0 +1,12 @@
+.typing {
+    font-size: 80px;
+    color: white;
+    font-weight: 900px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .typing{
+        font-size: 30px;
+    }
+}

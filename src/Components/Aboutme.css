@@ -1,0 +1,68 @@
+.sliders {
+    height: 200px;
+    width: 200px;
+}
+
+.aboutmeleadtxt {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+.leadimage {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amicons {
+    padding-left: 200px;
+}
+
+@media (max-width: 600px)
+{
+   .leadimage{
+        height: 100px;
+       width: 150px;
+   }
+
+   .aboutmeleadtxt {
+    padding-top: 1px;
+       font-size: x-small;
+   }
+
+   .sliders {
+    height: 100px;
+    width: 250px;
+   }
+
+   .amicons {
+    padding-left: 20px;
+   }
+
+
+
+}
+
+.line {
+    padding: 5px;
+    color: whitesmoke;
+    margin-left: 70px;
+    margin-right: 70px;
+}

@@ -1,0 +1,50 @@
+.main {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.project-button {
+    height: 150px;
+    width: 150px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.086);
+    color: whitesmoke;
+}
+
+.project-button:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+.project-icon {
+    height: 100px;
+    width: 100px;
+    color: whitesmoke;
+}
+
+@media (max-width: 600px)
+{
+    .center {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .main {
+        padding-top: 1px;
+        display: flex;
+        justify-content: center;
+        color: whitesmoke;
+        font-size: smaller;
+    }
+
+
+}

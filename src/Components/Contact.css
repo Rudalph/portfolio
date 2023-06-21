@@ -1,0 +1,50 @@
+.heading {
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.heading1 {
+    color: whitesmoke;
+    padding-left: 20px;
+}
+
+.input {
+    border-radius: 5px;
+    border-color: black;
+    border: 3px;
+    background-color: rgba(128, 128, 128, 0.227);
+    color: wheat;
+    width: 400px;
+    height: 45px;
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px)
+{
+    .input
+    {
+        width: 200px;
+        height: min-content;
+    }
+
+    .col {
+        padding: 7px;
+    }
+
+    .heading1 {
+        color: whitesmoke;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
+
+    .heading {
+        color: whitesmoke;
+        padding: 30px;
+    }
+}

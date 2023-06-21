@@ -1,0 +1,90 @@
+.Resume-txt {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+
+.line {
+    padding: 5px;
+    color: whitesmoke;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.title {
+    color: rgba(245, 222, 179, 0.558);
+    margin-left: 70px;
+    font-size: medium;
+}
+
+.resume-icons {
+    height: 40px;
+    width: 40px;
+}
+
+
+.resume-sub-body {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: cursive;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+.resume-sub-icons {
+    color: rgba(245, 222, 179, 0.558);
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+@media (max-width: 600px)
+{
+    .Resume-txt {
+        padding-top: 5px;
+    }
+
+    .title {
+        margin-left: 10px;
+        font-size: smaller;
+    }
+
+    .resume-sub-icons {
+        height: 20px;
+        width: 20px;
+    }
+
+    .resume-sub-body {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 0px;
+        font-size:small;
+    }
+
+    .line {
+        padding: 0px;
+        margin: auto;
+        color: inherit;
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .25;
+        color: whitesmoke;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+}
+
+
+

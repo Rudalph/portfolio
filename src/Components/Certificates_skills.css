@@ -1,0 +1,38 @@
+.head {
+    color: whitesmoke;
+    padding-left: 3px;
+    padding-left: 3px;
+}
+
+.trial {
+    margin-left: 540px;
+    width: 500px;
+    height:350px;
+
+}
+
+.skills {
+    color: yellow;
+    font-size: smaller;
+}
+
+
+
+
+@media (max-width:600px)
+{
+    .trial{
+        margin-left:  57px;
+        width: 250px;
+        height:200px;
+    }
+
+    .heading {
+        margin-top: 7px;
+        padding: 0px;
+    }
+
+    .aboutmeleadtxt {
+        margin-top: 0px;
+    }
+}
